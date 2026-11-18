@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+<link rel="stylesheet" href="exp5.css">
+</head>
+<body>
+<form>
+<h1>Portfolio</h1>
+<b>Name:</b><input type="text" required>
+<b>Father's Name:</b><input type="text">
+<b>Mother's Name:</b>input type="text">
+<b>Country:</b>
+<select>
+<option>Select Country</option>
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+</select>
+<b>Date of Birth:</b>
+<input type="date">
+<b>Gender:</b>
+<input type="radio" name="g"> Male Page 7
+JCS 308 | WEB DESIGNING LAB
+<input type="radio" name="g"> Female
+<input type="radio" name="g"> Other
+<h3>Education Qualification</h3>
+<small>Enter your education details in the table below.</small>
+<table>
+<tr>
+<th>S. No.</th><th>Standard</th>
+<th>Board / University</th>
+<th>Passing Year</th>
+<th>Percentage</th>
+</tr>
+<tr>
+<td>1</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>2</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>3</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+</tr>
+</table>
+<br>
+<b>Selected Course:</b>
+<input type="radio" name="c">B.Tech
+<input type="radio" name="c"> M.Tec
+<h3>Declaration</h3>
+<input type="checkbox" required>
+I declare that the information given above is correct.
+<p class="buttons">
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</p>
+</form>
+</body>
+</html> Page 8
+JCS 308 | WEB DESIGNING LAB
+Exp2.css
+body {
+font-family: Arial, sans-serif; 
+background: #f0f7f4; padding: 
+20px;
+color: #34443b;
+}
+form {
+max-width: 850px; 
+margin: auto; padding: 
+25px; background: 
+white; border-radius:
+12px;
+border-top: 5px solid #319879; box-
+shadow: 0 5px 18px #cdded5;
+}
+h1 {
+text-align: center; 
+color: #23765e; letter-
+spacing: 1px;
+}
+h3 {
+color: #319879;
+border-bottom: 1px solid #d7e8df; 
+padding-bottom: 8px;
+}
+input[type="text"], input[type="date"], select { width: 100%;
+padding: 10px; margin:
+7px 0 12px;
+box-sizing: border-box; border:
+1px solid #cbdcd3; border-
+radius: 6px;
+}
+table {
+width: 100%;
+border-collapse: collapse; 
+margin: 18px 0;
+}
+th, td {
+border: 1px solid #d5e5dc; padding: 
+8px;
+text-align: center;
+}
+th {
+background: #e1f2e9; 
+color: #23765e;
+}
+td input { width:
+95%;
+box-sizing: border-box; 
+padding: 6px;
+} th { background: #e7edf7; } td input {
+Web Designing Lab Manual • 9
+button {
+padding: 10px 24px; border: 
+none;
+border-radius: 6px; background:
+#319879; color: white;
+cursor: pointer;
+}
+button:hover { background:
+#23765e;
+}
+.buttons {
+text-align: center;
+}
+.buttons button:last-child { background: 
+#84968c;
+}
